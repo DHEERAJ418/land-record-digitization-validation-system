@@ -1,33 +1,52 @@
-BhuRakshak Hackathon Final Build
+# BhuRakshak – Intelligent Land Record System
 
-Run
----
-1. Install Node.js 18+.
-2. Open this folder in Command Prompt.
-3. Run: npm install
-4. Run: npm start
-5. Open: http://localhost:3000
+## About the Project
 
-Demo Officer Login
-------------------
-User ID: DHEE14
-Password: New@1234
+BhuRakshak is an intelligent land record digitization and validation system designed to transform traditional land records into structured, searchable, and verifiable digital records.
 
-Officer flow
-------------
-Login -> Verification Dashboard -> View record -> Open uploaded documents -> Verify/Reject -> Digital Document.
+The system provides tools for document processing, land-record verification, validation, digitization, audit tracking, and administrative management.
 
-Admin flow
-----------
-Admin Login/Signup -> Administrator Dashboard -> View record -> Edit / Digitize -> Save details.
+## How to Run
 
-Functional sections
--------------------
-Validation Center: live required-field, contact, email and duplicate-parcel checks.
-Audit Trail: database-backed activity log for login, record creation, uploads, edits and verification actions.
-Analytics: live status, confidence, document and recent processing metrics.
+### Prerequisites
 
-Notes
------
-The officer credentials are intentionally demo-only for the hackathon prototype. Do not use them in production.
-Uploaded files and the SQLite database are created at runtime.
+- Node.js 18 or above
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/DHEERAJ418/land-record-digitization-validation-system.git
+
+Open http://localhost:3000 in your browser.
+
+Main Features
+Land record digitization
+Document upload and management
+Land record verification
+Record validation
+Duplicate parcel checking
+Officer verification workflow
+Admin dashboard
+Audit trail
+Analytics and status monitoring
+Application Flow
+Officer
+
+Login → Verification Dashboard → View Record → Open Documents → Verify/Reject → Digital Document
+
+Admin
+
+Admin Login/Signup → Administrator Dashboard → View Record → Edit/Digitize → Save Details
+
+Note
+
+This is a hackathon prototype developed for demonstrating intelligent land record digitization, validation, and verification.
+
+Demo data and runtime-generated files are intended for demonstration purposes only.
+
+Team
+
+Developed as a team project for the hackathon.
